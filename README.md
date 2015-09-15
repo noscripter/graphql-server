@@ -78,3 +78,9 @@ npm run client
 ```
 npm test
 ```
+
+### example of getting response with curl 
+
+```
+curl 'http://localhost:3000/data?query=\{__schema\{queryType\{name,%20fields\{name,%20description\}\}\}\}'
+```
